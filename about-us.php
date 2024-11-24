@@ -1,5 +1,22 @@
 
 <?php include_once('includes/header.php') ?>
+<style>
+.treatmentbox img{
+    height: 350px;
+    width: 350px !important;
+}    
+.newtreat.imgtoright img {
+    float:left;
+    margin-left:12vw;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+    .newtreat.imgtoright .desc {
+        margin-left: 57vw !important;
+    }
+}
+
+</style>
     <div id="header-subpage" class="outer treatments-sub">
         <!--        <div class="navbox"></div>-->
         <div class="pagetitle trcmsd"><span>About Us</span></div>
@@ -19,6 +36,18 @@
                         <p>Our <b>Expertise</b> is to treat <b>complicated cases</b> and deliver the best possible treatment outcome to <b>save natural teeth.</b></p>
 
                     </div>
+                </div>
+                <div class="treatmentbox newtreat treatmentbox4 imgtoright treatmentshowafter clearafter">
+                    <!-- Treatmentbox -->
+                   
+                    <div class="desc box addjustme">
+                        <h2 class="padbottomzero">Dr.Shruthi C S</h2>
+                        <p>Graduated from Bapuji Dental College Davangere in 2000 </b> and completed her <b>Masters in Speciality of Prosthodontics</b> and implantology from GDC, Bangalore in 2005.</p>
+                        <p>She is a <b>professor & Head of the Department of Prosthodontics</b>at <b>Ambedkar Dental College, Bangalore.</b></p>
+                        <p>She is an expert in <b>implantology Full mouth Rehabilitation, and in house-CAD CAM Dentistry</b></p>
+
+                    </div>
+                    <img src="img/drshruthi.jpg" alt="" />
                 </div>
             </div>
         </div>
